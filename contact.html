@@ -3,8 +3,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Social Cu Sens</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" defer src="index.js"></script>
+    <link rel="stylesheet" href="contact.css" />
+    <script type="module" defer src="contact.js"></script>
     <link
       rel="icon"
       type="image/x-icon"
@@ -44,39 +44,51 @@
             />
           </div>
         </div>
-
-        <div id="homeText">
-          <h1>ÎMPREUNĂ EDUCĂM PENTRU COMUNITĂȚI MAI PUTERNICE!</h1>
-          <a>Exploreaza noile noutați→</a>
-        </div>
-        <div></div>
       </div>
-      <div id="Quotes">
-        <div>
-          <p>
-            „Bucuria interioară pe care o simțim când am făcut o faptă bună este
-            hrana pe care sufletul o cere.” – Albert Schweitzer
-          </p>
-          <img
-            src="Assets/Home/Volunteer03.jpg"
-            alt="Volunteering woman pouring soup into cup for the needy"
-          />
-        </div>
-        <p></p>
-        <div>
-          <p>
-            „Doar o viață trăită pentru alții merită trăită.”-Albert Einstein
-          </p>
-          <p>
-            „Cel mai bun mod de a te regăsi este să te pierzi în slujba
-            altora.”-Mahatma Gandhi
-          </p>
-          <img
-            src="Assets/Home/Volunteer02.jpg"
-            alt="Group of volunteers giving water and medicine to the needy"
-          />
-        </div>
+      <div id="contactText">
+        <h1>Contact</h1>
+        <p>
+          Salut! 👋 Mă bucur mult că ai ajuns aici și că ești interesat(ă) de
+          asistența socială! Dacă ai întrebări, sugestii sau vrei să afli mai
+          multe despre acest domeniu, nu ezita să mă contactezi. Îmi poți scrie
+          oricând pe adresa de email
+          <span
+            id="emailSpan"
+            onclick="window.location.href = 'mailto:socialcusens@gmail.com'"
+            >socialcusens@gmail.com</span
+          >
+          sau pe pagina de Instagram
+          <span
+            id="instagramSpan"
+            onclick="window.open('https://instagram.com/socialcusens', '_blank')"
+            >@socialcusens</span
+          >
+          – sunt aici să te ajut! 🤩 Abia aștept să discutăm și să împărtășim
+          idei!
+        </p>
+        <h1>Trimite-mi un mesaj</h1>
       </div>
+      <form id="contactForm">
+        <label for="Nume"
+          >Nume <span class="spanTransparent">(obligatoriu)</span></label
+        >
+        <input type="text" id="Nume" required />
+        <label for="email"
+          >Email <span class="spanTransparent">(obligatoriu)</span></label
+        >
+        <input type="email" required id="email" />
+        <label for="Site" style="transform: translateX(-17vw)">Site web </label>
+        <input type="text" id="Site" />
+        <label for="subiect"
+          >Subiect <span class="spanTransparent">(obligatoriu)</span></label
+        >
+        <input type="text" id="subiect" required />
+        <label for="Mesaj"
+          >Mesaj <span class="spanTransparent">(obligatoriu)</span></label
+        >
+        <textarea id="Mesaj" required></textarea>
+        <button type="submit">Trimite</button>
+      </form>
       <div id="bottomContact">
         <div>
           <h1>DESPRE NOI</h1>
@@ -133,7 +145,7 @@
       </div>
       <div id="Menu">
         <div id="contentMenu">
-          <h1>SOCIAL CU SENS</h1>
+          <h1 onclick="window.open('index.html', '_self')">SOCIAL CU SENS</h1>
           <div id="menuLinks">
             <img
               src="Assets/Icons[SVG]/Instagram.svg"
@@ -158,40 +170,51 @@
             />
           </div>
         </div>
-
-        <div id="homeText">
-          <h1>ÎMPREUNĂ EDUCĂM PENTRU COMUNITĂȚI MAI PUTERNICE!</h1>
-          <a>Exploreaza noile noutați→</a>
-        </div>
-        <div></div>
       </div>
-
-      <div id="Quotes">
-        <div>
-          <p>
-            „Bucuria interioară pe care o simțim când am făcut o faptă bună este
-            hrana pe care sufletul o cere.” – Albert Schweitzer
-          </p>
-          <img
-            src="Assets/Home/Volunteer03.jpg"
-            alt="Volunteering woman pouring soup into cup for the needy"
-          />
-        </div>
-        <p></p>
-        <div>
-          <p>
-            „Doar o viață trăită pentru alții merită trăită.”-Albert Einstein
-          </p>
-          <p>
-            „Cel mai bun mod de a te regăsi este să te pierzi în slujba
-            altora.”-Mahatma Gandhi
-          </p>
-          <img
-            src="Assets/Home/Volunteer02.jpg"
-            alt="Group of volunteers giving water and medicine to the needy"
-          />
-        </div>
+      <div id="contactText">
+        <h1>Contact</h1>
+        <p>
+          Salut! 👋 Mă bucur mult că ai ajuns aici și că ești interesat(ă) de
+          asistența socială! Dacă ai întrebări, sugestii sau vrei să afli mai
+          multe despre acest domeniu, nu ezita să mă contactezi. Îmi poți scrie
+          oricând pe adresa de email
+          <span
+            id="emailSpan"
+            onclick="window.location.href = 'mailto:socialcusens@gmail.com'"
+            >socialcusens@gmail.com</span
+          >
+          sau pe pagina de Instagram
+          <span
+            id="instagramSpan"
+            onclick="window.open('https://instagram.com/socialcusens', '_blank')"
+            >@socialcusens</span
+          >
+          – sunt aici să te ajut! 🤩 Abia aștept să discutăm și să împărtășim
+          idei!
+        </p>
+        <h1>Trimite-mi un mesaj</h1>
       </div>
+      <form id="contactForm">
+        <label for="Nume"
+          >Nume <span class="spanTransparent">(obligatoriu)</span></label
+        >
+        <input type="text" id="Nume" required />
+        <label for="email"
+          >Email <span class="spanTransparent">(obligatoriu)</span></label
+        >
+        <input type="email" required id="email" />
+        <label for="Site" style="transform: translateX(-17vw)">Site web </label>
+        <input type="text" id="Site" />
+        <label for="subiect"
+          >Subiect <span class="spanTransparent">(obligatoriu)</span></label
+        >
+        <input type="text" id="subiect" required />
+        <label for="Mesaj"
+          >Mesaj <span class="spanTransparent">(obligatoriu)</span></label
+        >
+        <textarea id="Mesaj" required></textarea>
+        <button type="submit">Trimite</button>
+      </form>
       <div id="bottomContact">
         <div>
           <h1>DESPRE NOI</h1>

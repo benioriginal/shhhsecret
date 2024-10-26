@@ -14,7 +14,7 @@ function throttle(func, delay) {
     };
   }
   
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth <= 1000) {
     const mobileVer = document.getElementById('mobileVer');
     const desktopVer = document.getElementById('desktopVer');
     mobileVer.style.display = 'block';
@@ -90,5 +90,6 @@ function throttle(func, delay) {
 }
   
 else{
+    
     mobileVer.remove()
 }
