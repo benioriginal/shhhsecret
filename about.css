@@ -1,0 +1,493 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: bold;
+    src: url(Assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight:normal;
+    src: url(Assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Vazir';
+    src: url(Assets/fonts/Vazirmatn/static/Vazirmatn-Regular.ttf);
+}
+@font-face {
+    font-family: 'Vazir';
+    font-weight:400;
+    src: url(Assets/fonts/Vazirmatn/static/Vazirmatn-Medium.ttf);
+}
+@font-face {
+    font-family: 'Vazir';
+    font-weight: 500;
+    src: url(Assets/fonts/Vazirmatn/static/Vazirmatn-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Vazir';
+    font-weight: lighter;
+    src: url(Assets/fonts/Vazirmatn/static/Vazirmatn-Regular.ttf);
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about h1{
+    transform: translateX(-20vw);
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+#about p{
+    max-width: 45vw;
+    font-size: 20px;
+    font-family: 'Vazir';
+    font-weight: lighter;
+}
+#Menu {
+    background-image: url(Assets/Home/menu.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+}
+#Menu h1{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 25px;
+}
+#Menu h1:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+#Menu a {
+    font-family: 'Vazir';
+    color: white;
+    text-decoration: none;
+    
+}
+#Menu a:hover{
+    text-decoration:underline;
+}
+#contentMenu img{
+    width: 16px;
+    height: auto;
+    margin: 0;
+    transition: all 0.1s ;
+    
+}
+#contentMenu img:hover{
+    transform: scale(1.2);
+    transition: all 0.1s ;
+    cursor: pointer;
+}
+#contentMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 25px;
+}
+#menuLinks a{
+    margin: 0 15px 0 15px
+}
+#menuLinks img{
+    margin: 0 0px 0 5px;
+}
+#menuLinks{
+    margin: 0 25px 0 0;
+}
+#homeText{
+    text-align: center;
+    transform: translateY(-30%);
+}
+#homeText h1{
+    cursor:default !important;
+    text-decoration: none !important;
+    font-size: 40px;
+    width: 50vw;
+    transform: translateX(25vw);
+}
+#homeText a{
+    font-weight: 300;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+}
+
+#Quotes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Quotes img{
+    margin: 20px;
+    width: 50vw;
+}
+#Quotes div p{
+    margin: 20px;
+    max-width: 50vw;
+    font-family: 'Vazir';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+#Quotes div{
+    border-left: 1px black solid;
+}
+#bottomContact{
+    margin-top: 3vh;
+    height: 60vh;
+    width: 100vw;
+    background-color: rgb(2, 102, 94);
+    display: flex;
+    justify-content: space-around;
+    color: white
+
+}
+#bottomContact img{
+    width: 16px;
+    height: auto;
+}
+#bottomContact img:hover{
+    transform: scale(1.2);
+    transition: all 0.1s ;
+    cursor: pointer;
+    
+}
+
+#bottomContact div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#bottomContact h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight:bold;
+}
+#bottomContact p{
+    max-width: 40vw;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight:200;
+}
+#bottomContact div div{
+    display: flex;
+    margin-left: 0;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#bottomContact div div img{
+    margin-right: 10px;
+}
+#bottomContact form input{
+    padding: 13px;
+    width: 30vw;
+    height: 7vh;
+}
+#bottomContact form button{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.1s;
+
+}
+#bottomContact form button:hover{
+    color: rgb(170, 168, 168);
+    transition: all 0.1s;
+}
+
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        background-color: rgb(2, 102, 94);
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        font-weight: bold;
+        src: url(Assets/fonts/Poppins/Poppins-Bold.ttf);
+    }
+    @font-face {
+        font-family: 'Poppins';
+        font-weight:normal;
+        src: url(Assets/fonts/Poppins/Poppins-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'Vazir';
+        src: url(Assets/fonts/Vazirmatn/static/Vazirmatn-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'Vazir';
+        font-weight:400;
+        src: url(Assets/fonts/Vazirmatn/static/Vazirmatn-Medium.ttf);
+    }
+    @font-face {
+        font-family: 'Vazir';
+        font-weight: 500;
+        src: url(Assets/fonts/Vazirmatn/static/Vazirmatn-SemiBold.ttf);
+    }
+    #Menu {
+        background-color: white;
+
+        background-image: url(Assets/Home/menu.jpg)  ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: min-content;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0;
+    }
+    #mobileVer{
+        background-color: white;
+        
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about h1{
+        transform: translateX(-20vw);
+        font-family: 'Poppins';
+        font-weight: bold;
+    }
+    #about p{
+        max-width: 70vw;
+        font-size: 14px;
+        font-family: 'Vazir';
+        font-weight: lighter;
+    }
+    #Menu h1{
+        font-size: 20px;
+        font-family: 'Poppins';
+        color: white;
+    }
+    #Menu h1:hover{
+        text-decoration:underline;
+        cursor: pointer;
+    }
+    #Menu a {
+        font-family: 'Vazir';
+        color: white;
+        text-decoration: none;
+        
+    }
+    #Menu a:hover{
+        text-decoration:underline;
+    }
+    #contentMenu img{
+        width: 16px;
+        height: auto;
+        margin: 0;
+        transition: all 0.1s ;
+        
+    }
+    #contentMenu img:hover{
+        transform: scale(1.2);
+        transition: all 0.1s ;
+        cursor: pointer;
+    }
+    #contentMenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0 0 25px;
+    }
+    #menuButton{
+        width: 20px  !important;
+        user-select: none;
+        margin: 0;
+        transform: translateY(6px);
+    }
+    #menuButton:hover{
+        width: 20px  !important;
+        user-select: none;
+        transform: translateY(6px) !important;
+        transition: none !important;
+    }
+    #menuLinks a{
+        margin: 0 15px 0 15px
+    }
+    #menuLinks img{
+        margin: 0 0px 0 15px;
+    }
+    #menuLinks{
+        margin: 0 25px 0 0;
+    }
+    #homeText{
+        text-align: center;
+        transform: translateY(-30%);
+    }
+    #extendedMenu{
+        display: flex;
+        margin: none;
+        flex-direction: column;
+        background-image: url(Assets/Home/menu.jpg)  ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #extendedMenu div{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    #extendedMenu a {
+        font-size: 13px;
+        margin: 10px 10px 10px 10px;
+        font-family: 'Vazir';
+        color: white;
+        text-decoration: none;
+        
+    }
+    #extendedMenu a:hover{
+        text-decoration:underline;
+    }
+    #homeText h1{
+        cursor:default !important;
+        text-decoration: none !important;
+        font-size: 30px;
+        width: 80vw;
+        transform: translateX(10vw);
+    }
+    #homeText a{
+        font-weight: 300;
+        font-size: 15px;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        cursor: pointer;
+    }
+    
+    #Quotes{
+        background-color: white;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #Quotes img{
+        margin: 20px;
+        width: 80vw;
+        object-fit: cover;
+    }
+    #Quotes div p{
+        margin: 20px;
+        max-width: 80vw;
+        font-family: 'Vazir';
+        font-weight: 500;
+        font-style: italic;
+        font-size: 15px;
+    }
+    #Quotes div{
+        border-left: 1px black solid;
+    }
+    #bottomContact{
+        border: none;
+        margin-top: 3vh;
+        height: 40vh;
+        width: 100vw;
+        background-color: rgb(2, 102, 94);
+        display: flex;
+        justify-content: space-around;
+        color: white
+    
+    }
+    #bottomContact img{
+        width: 16px;
+        height: auto;
+    }
+    #bottomContact img:hover{
+        transform: scale(1.2);
+        transition: all 0.1s ;
+        cursor: pointer;
+        
+    }
+    
+    #bottomContact div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    #bottomContact h1{
+        font-family: 'Poppins';
+        font-size: 15px;
+        font-weight:bold;
+    }
+    #bottomContact p{
+        max-width: 40vw;
+        font-family: 'Poppins';
+        font-size: 10px;
+        font-weight:200;
+    }
+    #bottomContact div div{
+        display: flex;
+        margin-left: 0;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    #bottomContact div div img{
+        margin-right: 10px;
+    }
+    form input{
+        padding: 13px ;
+        border: none;  
+        width: max-content;
+        height: max-content;
+    }
+    form{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(2, 102, 94);
+        border: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 0;
+    }
+    form button{
+        background-color: rgb(2, 102, 94);
+
+        font-family: 'Poppins';
+        font-weight: bold;
+        color: white;
+        border: none;
+        background-color: transparent;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 5px;
+        margin-top: 10px;
+        transition: all 0.1s;
+        margin-bottom: 15px;
+    
+    }
+    #bottomContact form button:hover{
+        color: rgb(170, 168, 168);
+        transition: all 0.1s;
+    }
+  }
