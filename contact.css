@@ -345,10 +345,11 @@ body{
         align-items: center;
     }
     #contactForm input{
-        font-size: 20px;
+        font-size: 15px;
         border: 1px solid black;
         width: 70vw;
-        height: 10vw;
+        height: 6vw;
+        padding: 15px;
     }
     #contactForm label{
         font-family: 'Poppins';
@@ -357,7 +358,7 @@ body{
         transform: translateX(-15vw);
     }
     #contactForm textarea{
-        font-size: 20px;
+        font-size: 15px;
     
         width: 70vw;
         height: 30vw;
